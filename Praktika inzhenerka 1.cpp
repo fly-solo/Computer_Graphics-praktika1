@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Tutorial 01");
 	glutDisplayFunc(RenderSceneCB);
-	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	glClearColor(0.5f, 0.5f, 0.5f, 0.0f);
 	glutMainLoop();
 	glClear(GL_COLOR_BUFFER_BIT);
 	glutSwapBuffers();
